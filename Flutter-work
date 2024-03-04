@@ -1,0 +1,58 @@
+Q.NO.01
+Length and breadth of a rectangle are 5 and 7 respectively. Write a program to calculate the area of the rectangle.
+Formula (area = length * breadth)
+
+void main() {
+  int length =5;
+  int breadth = 7;
+  int area= length*breadth;
+  print("The Area Of Rectangle Is " "$area");
+}
+
+
+Q.NO.02)
+Create a integer variable num = 7, Add 8 to the number and then divide it by 3. 
+Now, the modulus of that number is taken with 5 and then multiply the resultant value by 5, 
+store result in variable i. Display the final result.
+
+void main() {
+  var num =7;
+  var num1=num+8;
+  var num2=num1/3;
+  var num3=num2%5;
+  var num4=num3*5;
+  var i=num4;
+  print (i);
+}
+
+Q.NO.03
+Write a program create two integer variables 'a' and 'b' and assign them any number and then check if both the conditions 'a < 50' and 'a < b' are true.
+Display the result, now check if at-least one of the conditions 'a < 50' and 'a < b' is true
+
+void main(){
+  int a = 30;
+  int b = 60;
+  
+ print(a<50 && a<b);
+ print(a<50|| a<b);
+}
+
+Q.NO.04
+If the marks of Robert in three subjects are 78,45 and 62 respectively (each out of 100 ),
+write a program to calculate his total marks and percentage marks. Print his name, marks of all three subjects
+total marks and percentage.
+void main() {
+
+var name = "Robert";
+print (name);
+ int eng =78;
+ int urdu = 45;
+ int math = 62;
+ int totalmarks=100;
+ int obtainmarks=(eng +urdu+math);
+print("Obtain Marks is ""$obtainmarks");
+print("Total Marks is" "$totalmarks");
+double per = totalmarks/obtainmarks*100;
+print ("Percentage is " "$per");
+}
+}
